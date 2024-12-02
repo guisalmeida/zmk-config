@@ -32,7 +32,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - OUT TOG
+  - {t: ▽, type: trans}
   - KP 1
   - KP 2
   - KP 3
