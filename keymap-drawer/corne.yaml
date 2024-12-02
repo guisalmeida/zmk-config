@@ -1,0 +1,90 @@
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layers:
+  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, DEL, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ENTER, LEFT ALT, lower, LEFT CONTROL,
+    SPACE, raise, KP 0]
+  lower:
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BSPC
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - KP 4
+  - KP 5
+  - KP 6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - KP 1
+  - KP 2
+  - KP 3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - {type: held}
+  - SPACE
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - Sft+ -
+  - '='
+  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  - '['
+  - ']'
+  - ^
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - <
+  - '>'
+  - \
+  - {t: ▽, type: trans}
+  - LGUI
+  - {t: ▽, type: trans}
+  - SPACE
+  - SPACE
+  - {type: held}
+  - {t: ▽, type: trans}
