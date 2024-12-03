@@ -1,19 +1,19 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, DEL, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ENTER, LEFT ALT, lower, SPACE,
-    RIGHT CONTROL, raise, RSHIFT]
+  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, DEL, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ENTER, LEFT ALT, lower, LEFT CONTROL,
+    SPACE, raise, RSHIFT]
   lower:
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
   - '7'
   - '8'
-  - KP 9
-  - '-'
-  - '='
+  - '9'
+  - '0'
   - BSPC
   - BT CLR
   - {t: BT, h: '0'}
@@ -21,30 +21,30 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - KP 4
-  - KP 5
-  - KP 6
-  - {t: ▽, type: trans}
-  - KP ASTERISK
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
   - {t: ▽, type: trans}
-  - KP DIVIDE
   - {t: ▽, type: trans}
-  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 0
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - '!'
@@ -52,11 +52,11 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,11 +64,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - '['
   - ']'
-  - ^
+  - \
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,13 +76,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '~'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
-  - \
-  - {t: ▽, type: trans}
-  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
