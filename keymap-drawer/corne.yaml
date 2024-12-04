@@ -59,11 +59,11 @@ layers:
   - )
   - BSPC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOL DN
+  - VOLUME UP
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   - '-'
   - '='
   - '['
