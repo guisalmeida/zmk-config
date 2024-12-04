@@ -15,12 +15,12 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - VOLUME UP
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   - LEFT
   - DOWN
   - UP
@@ -58,24 +58,24 @@ layers:
   - (
   - )
   - BSPC
-  - {t: ▽, type: trans}
-  - VOL DN
-  - VOLUME UP
-  - PREVIOUS
-  - PLAY PAUSE
-  - NEXT
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - '-'
   - '='
   - '['
   - ']'
   - \
   - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB HUD
+  - RGB HUI
+  - RGB SAD
+  - RGB SAI
+  - RGB BRD
+  - RGB BRI
   - _
   - +
   - '{'
