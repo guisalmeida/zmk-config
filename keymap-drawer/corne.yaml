@@ -25,8 +25,8 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - PAGE DOWN
   - RGB HUD
   - RGB HUI
   - RGB SAD
@@ -44,7 +44,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT WIN
   raise:
   - {t: ▽, type: trans}
   - '!'
