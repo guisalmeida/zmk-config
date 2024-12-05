@@ -13,16 +13,14 @@
 
 / {
     macros {
-        &macro_cedilla {
+        macro_cedilla {
             compatible = "zmk,behavior-macro";
             label = "Macro Cedilla";
             #binding-cells = <0>;
             bindings = <&kp C>, <&kp COMMA>;
         };
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
