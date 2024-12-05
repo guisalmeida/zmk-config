@@ -38,7 +38,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -70,18 +70,18 @@ layers:
   - ']'
   - \
   - '`'
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RGB BRD
   - RGB BRI
+  - RGB HUD
+  - RGB HUI
   - _
   - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
+  - <
+  - '>'
+  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
