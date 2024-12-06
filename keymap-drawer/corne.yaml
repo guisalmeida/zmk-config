@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: combo refresh, h: T}
   - Y
   - U
   - I
