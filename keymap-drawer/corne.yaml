@@ -112,7 +112,7 @@ layers:
   - \
   - '`'
   - {t: ▽, type: trans}
-  - RGB TOG
+  - {t: ▽, type: trans}
   - RGB BRD
   - RGB BRI
   - RGB HUD
