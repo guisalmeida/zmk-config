@@ -80,7 +80,7 @@ layers:
   - +
   - <
   - '>'
-  - '&macros macro_cedilla'
+  - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
