@@ -5,19 +5,19 @@ layers:
   - Q
   - W
   - E
-  - {t: R, h: Sft+Ctl+ R}
-  - {t: T, h: Sft+Ctl+ T}
+  - R
+  - T
   - Y
   - U
   - I
   - O
-  - {t: P, h: PRINTSCREEN}
+  - P
   - BSPC
   - TAB
   - A
   - S
   - D
-  - {t: F, h: Sft+Ctl+ F}
+  - F
   - G
   - H
   - J
