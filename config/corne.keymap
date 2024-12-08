@@ -13,11 +13,13 @@
 
 / {
     behaviors {
-        hold_r_lctl_lsht_r: hold_r {
-            compatible = "zmk,behavior-mod-morph";
+        hold_r_lctl_lsht_r: behavior_r {
+            compatible = "zmk,behavior-mod-tap";
             #binding-cells = <0>;
             bindings = <&kp R>;
-            mods = <(MOD_LCTL | MOD_LSFT)>;
+            hold-trigger-key-positions = <>;
+            tapping-term-ms = <200>;
+            hold-mods = <(MOD_LCTL | MOD_LSFT)>;
         };
     };
 
