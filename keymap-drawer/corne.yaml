@@ -1,11 +1,11 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
-  - ESC
+  - {t: ESC, s: '`'}
   - Q
   - W
   - E
-  - R
+  - '&hold_r_lctl_lsht_r'
   - T
   - Y
   - U
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   config:
-  - {t: ESC, s: '`'}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
