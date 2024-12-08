@@ -13,7 +13,7 @@
 
 / {
     behaviors {
-        hard_refresh: hold_r {
+        hold_r_lctl_lsht_r: hold_r {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp R>;
@@ -26,10 +26,10 @@
 
         default_layer {
             bindings = <
-&kp ESC           &kp Q  &kp W  &kp E         &hard_refresh &kp T                     &kp Y      &kp U  &kp I                       &kp O    &kp P     &kp DEL
-&mt TAB CAPSLOCK  &kp A  &kp S  &kp D         &kp F         &kp G                     &kp H      &kp J  &kp K                       &kp L    &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z  &kp X  &kp C         &kp V         &kp B                     &kp N      &kp M  &kp COMMA                   &kp DOT  &kp FSLH  &kp ENTER
-                                &kp LEFT_ALT  &mo 1         &mt LEFT_CONTROL SPACE    &kp SPACE  &mo 2  &mt RIGHT_SHIFT RIGHT_META
+&gresc            &kp Q  &kp W  &kp E         &hold_r_lctl_lsht_r         &kp T                     &kp Y      &kp U  &kp I                       &kp O    &kp P     &kp DEL
+&mt TAB CAPSLOCK  &kp A  &kp S  &kp D         &kp F                       &kp G                     &kp H      &kp J  &kp K                       &kp L    &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z  &kp X  &kp C         &kp V                       &kp B                     &kp N      &kp M  &kp COMMA                   &kp DOT  &kp FSLH  &kp ENTER
+                                &kp LEFT_ALT  &mo 1                       &mt LEFT_CONTROL SPACE    &kp SPACE  &mo 2  &mt RIGHT_SHIFT RIGHT_META
             >;
         };
 
@@ -53,7 +53,7 @@
 
         config_layer {
             bindings = <
-&gresc           &trans           &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans           &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans           &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans  &trans  &trans    &trans  &trans  &trans
