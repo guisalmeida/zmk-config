@@ -5,7 +5,7 @@ layers:
   - Q
   - W
   - E
-  - R
+  - {t: R, h: Sft+Ctl+ R}
   - T
   - Y
   - U
@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - DEL
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - VOL DN
   - VOLUME UP
   - PREVIOUS
@@ -98,13 +98,13 @@ layers:
   - '*'
   - (
   - )
+  - INSERT
   - {t: ▽, type: trans}
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - '['
@@ -113,10 +113,10 @@ layers:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RGB BRD
-  - RGB BRI
-  - RGB HUD
-  - RGB HUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - _
   - +
   - <
@@ -130,6 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   config:
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -140,14 +141,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,10 +156,10 @@ layers:
   - {t: ▽, type: trans}
   - RGB EFR
   - RGB EFF
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB BRI
+  - RGB HUD
+  - RGB HUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
