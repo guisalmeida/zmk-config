@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: LEFT CONTROL}
   - SPACE
   - raise
-  - {t: RIGHT META, h: RIGHT SHIFT}
+  - RIGHT SHIFT
   lower:
   - {t: ▽, type: trans}
   - '1'
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT WIN
+  - LEFT META
   raise:
   - {t: ▽, type: trans}
   - '!'
