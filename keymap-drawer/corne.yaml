@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - DEL
-  - {t: CAPSLOCK, h: TAB}
+  - BSPC
+  - TAB
   - A
   - S
   - D
@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: LEFT CONTROL}
   - SPACE
   - raise
-  - {t: RIGHT META, h: RIGHT SHIFT}
+  - RIGHT SHIFT
   lower:
   - {t: ▽, type: trans}
   - '1'
@@ -55,8 +55,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - {t: ▽, type: trans}
+  - DEL
+  - CAPSLOCK
   - VOL DN
   - VOLUME UP
   - PREVIOUS
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT WIN
+  - LEFT META
   raise:
   - {t: ▽, type: trans}
   - '!'
@@ -98,13 +98,13 @@ layers:
   - '*'
   - (
   - )
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - INSERT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - '['
@@ -113,10 +113,10 @@ layers:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RGB BRD
-  - RGB BRI
-  - RGB HUD
-  - RGB HUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - _
   - +
   - <
@@ -130,24 +130,24 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   config:
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BRI DEC
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,6 +156,10 @@ layers:
   - {t: ▽, type: trans}
   - RGB EFR
   - RGB EFF
+  - RGB BRD
+  - RGB BRI
+  - RGB HUD
+  - RGB HUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -163,12 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
