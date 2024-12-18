@@ -66,18 +66,18 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - END
   - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG UP
+  - HOME
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
@@ -109,7 +109,7 @@ layers:
   - '='
   - '['
   - ']'
-  - \
+  - '~'
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - +
   - <
   - '>'
-  - '~'
+  - \
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
