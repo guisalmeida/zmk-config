@@ -10,7 +10,7 @@
 // You can leave it or remove in your own zmk config. If you remove it, you
 // should also remove the entry in `zmk-config-example/build.yaml` that uses
 // it.
-#ifndef MOUSE_PS2_ALT_PINS
+// #ifndef MOUSE_PS2_ALT_PINS
 
 &pinctrl {
     spi3_default: spi3_default {
@@ -57,4 +57,5 @@
     };
 };
 
-#endif  // MOUSE_PS2_ALT_PINS
+// MOUSE_PS2_ALT_PINS
+// #endif
