@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "*.keymap": "cpp"
+    "*.keymap": "cpp",
+    "*.overlay": "cpp"
   }
 }
