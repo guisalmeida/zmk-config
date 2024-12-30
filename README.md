@@ -1,5 +1,6 @@
 # My Corne V3 Split Keyboard ZMK Config
 
-![image](https://github.com/user-attachments/assets/5049329b-884b-4417-a85a-20a7237514b0)
+![image](https://github.com/user-attachments/assets/3c7d52c9-4b3a-4cb4-a32a-e2c84ef051bb)
+
 
 ![layout](keymap-drawer/corne.svg)
