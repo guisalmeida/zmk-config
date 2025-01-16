@@ -99,24 +99,24 @@ layers:
   - (
   - )
   - INSERT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - F6
   - '-'
   - '='
   - '['
   - ']'
   - '~'
   - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - _
   - +
   - <
