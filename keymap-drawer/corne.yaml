@@ -139,8 +139,8 @@ layers:
   - BRI DEC
   - BRI UP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
   - '&bootloader'
   - BT CLR
   - {t: BT, h: '0'}
