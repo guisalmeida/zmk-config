@@ -27,7 +27,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LAYER1OR4";
             #binding-cells = <0>;
-            bindings = <&sl 1>, <&sl 4>;
+            bindings = <&mo 1>, <&mo 4>;
+            tapping-term-ms = <500>;
         };
     };
 
