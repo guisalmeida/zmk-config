@@ -38,7 +38,7 @@ layers:
   - /
   - ENTER
   - LEFT ALT
-  - lower
+  - '&layer1or4'
   - {t: SPACE, h: LEFT CONTROL}
   - SPACE
   - raise
@@ -81,7 +81,7 @@ layers:
   - '?'
   - ENTER
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
