@@ -28,8 +28,6 @@
             label = "LAYER1OR4";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&mo 4>;
-
-            tapping-term-ms = <500>;
         };
     };
 
