@@ -38,10 +38,10 @@ layers:
   - /
   - ENTER
   - LEFT ALT
-  - '&layer1or4'
+  - lower
   - {t: SPACE, h: LEFT CONTROL}
   - SPACE
-  - raise
+  - '&layer2or4'
   - RIGHT SHIFT
   lower:
   - {t: ▽, type: trans}
@@ -81,7 +81,7 @@ layers:
   - '?'
   - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   config:
   - {t: ▽, type: trans}
@@ -167,10 +167,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   functions:
   - F1
