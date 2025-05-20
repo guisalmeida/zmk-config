@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LEFT ALT
   - lower
-  - {t: SPACE, h: LEFT CONTROL}
+  - '&ctrlorcommand'
   - SPACE
   - '&layer2or4'
   - RIGHT SHIFT
@@ -125,7 +125,7 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT COMMAND
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
