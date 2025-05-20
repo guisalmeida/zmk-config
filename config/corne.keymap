@@ -29,7 +29,7 @@
             #binding-cells = <0>;
             bindings = <&mo 2>, <&mo 4>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <0>;
         };
 
         ctrlorcommand: ctrlorcommand {
@@ -38,7 +38,7 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp LCMD>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <0>;
         };
     };
 
