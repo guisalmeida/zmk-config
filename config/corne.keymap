@@ -13,15 +13,6 @@
 &led_strip { chain-length = <27>; };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     behaviors {
         layer2or4: layer2or4 {
             compatible = "zmk,behavior-tap-dance";
