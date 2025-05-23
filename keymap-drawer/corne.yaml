@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - ENTER
+  - {t: ENTER, h: RSHIFT}
   - LEFT ALT
-  - lower
-  - '&ctrlorcommand'
+  - '&layer1or3'
+  - {t: SPACE, h: LCTRL}
   - SPACE
   - '&layer2or4'
-  - RIGHT SHIFT
+  - LEFT META
   lower:
   - {t: ▽, type: trans}
   - '1'
@@ -81,11 +81,11 @@ layers:
   - '?'
   - ENTER
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT META
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - '!'
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
