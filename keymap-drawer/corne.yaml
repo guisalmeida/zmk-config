@@ -187,7 +187,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - '&arrow_fn'
-  - AL SCREEN SAVER
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AL CALCULATOR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - AC HOME
