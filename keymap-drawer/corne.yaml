@@ -74,10 +74,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - AC HOME
   - PAGE DOWN
   - PG UP
-  - HOME
+  - END
   - '?'
   - ENTER
   - {t: ▽, type: trans}
@@ -123,7 +123,7 @@ layers:
   - '>'
   - \
   - ENTER
-  - {t: ▽, type: trans}
+  - AL GRAPHICS EDITOR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,10 +203,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - AC HOME
   - PAGE DOWN
   - PG UP
-  - AC HOME
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
