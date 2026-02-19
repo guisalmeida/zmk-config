@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC HOME
+  - HOME
   - PAGE DOWN
   - PG UP
   - END
@@ -203,7 +203,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC HOME
+  - HOME
   - PAGE DOWN
   - PG UP
   - END
